@@ -24,8 +24,212 @@
     </style>
 
     <script>
-      let js = 'amazing';
-      if (js === 'amazing') alert('JavaScript is FUN!');
+
+      /* 
+
+      let country = "UK";
+      let continent = "Europe"
+      let population = "23000" 
+
+      // console log for variables 
+      console.log(country)
+      console.log(continent)
+      console.log(population)
+
+      console.log(typeof 'jake');
+
+      year = 1991;
+      console.log(year);
+
+      const firstName = 'Elektra';
+      const lastName = 'Murphy';
+      console.log(firstName + " " + lastName)
+     
+
+      //Comparison operators
+      const now = 2037; 
+      const ageJonas = now - 1991;
+      const ageSarah = now - 2018; 
+      console.log(ageJonas > ageSarah); // >, <, >=, <= 
+      console.log(ageSarah >= 18);
+
+      let x, y; 
+      x = y = 25 - 10 -5; // x = y = 10, 
+      console.log(x, y);
+
+      const averageAge = (ageJonas + ageSarah) / 2;
+      console.log(averageAge)
+
+      //Coding challenge 1
+
+      const massMark = 78;
+      const massJohn = 92;
+      const heightMark = 1.69;
+      const heightJohn = 1.95;
+
+      //2 
+
+      const bmiMark = massMark / (heightMark ** 2); 
+      const bmiJohn = massJohn / (heightJohn ** 2); 
+      const markHigherBMI = bmiMark > bmiJohn;
+      console.log(markHigherBMI)
+
+      //3 
+     
+const firstName = 'Elektra';
+const job = 'developer';
+const birthYear = 1991;
+const year = 2021; 
+const Elektra = "I'm" + " "  + firstName + " "  + ', a' + " " + job;
+console.log(Elektra)
+
+const elektraNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
+console.log(`Just a regular string`); 
+
+const age = 15;
+
+if(age >= 18){
+  console.log('Sarah is old enough');
+} else {
+  console.log('Sarah is not old enough');
+}
+
+const birthYear = 1991;
+let centuryl
+
+if(birthYear <= 2000){
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
+      //Coding challenge 1
+
+      const massMark = 78;
+      const massJohn = 92;
+      const heightMark = 1.69;
+      const heightJohn = 1.95;
+
+      //2 
+
+      const bmiMark = massMark / (heightMark ** 2); 
+      const bmiJohn = massJohn / (heightJohn ** 2); 
+      console.log(bmiMark, bmiJohn);
+
+      if(bmiMark >= bmiJohn){
+        console.log(`Mark's BMI (${bmiMark}) is higher than John's (${bmiJohn})`);
+      } else {
+        console.log(`John's BMI is higher than Mark's`)
+      }
+
+// Type conversion 
+const inputYear = '1991';
+console.log(Number(inputYear) + 18);
+
+console.log(String(23));
+
+//Type cooercion 
+console.log('I am' + 23 + 'years old');
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+
+const money = 0;
+if(money){
+  console.log("Don't spend");
+} else {
+  console.log("You should get a job");
+}
+
+const age = 18;
+if (age === 18) console.log('You are 18');
+
+const favourite = prompt("What's your favourite number?");
+console.log(favourite);
+console.log(typeof(favourite));
+
+if (favourite !== 23) console.log('Not');
+
+const hasDriversLicense = true; //A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if(shouldDrive) {
+ // console.log('Sarah is able to drive!');
+// } else {
+//  console.log('Someone else should drive');
+// }
+
+const isTired = true; 
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+if(hasDriversLicense && hasGoodVision && !isTired) {
+  console.log('Sarah is able to drive!');
+} else {
+  console.log('Someone else should drive...');
+}
+
+// Coding Challenge #3 - 1 
+
+const scoreDolphins = (88 + 98 + 112) / 3;
+const scoreKoalas = (88 + 95 + 112) / 3;
+
+if (scoreDolphins > scoreKoalas) {
+  console.log('The Dolphins won!');
+} else if (scoreDolphins < scoreKoalas) {
+  console.log('The Koalas won!');
+} else if (scoreDolphins === scoreKoalas) {
+  console.log("It's a tie");
+}
+
+const day = 'wednesday';
+
+switch(day) {
+  case 'monday': // day === 'monday'
+    console.log('Go to coding meetup');
+    break;
+    case 'tuesday':
+    console.log('Prepare videos');
+    break;
+    case 'wednesday':
+    console.log('Happy humpday');
+    break;
+    default: 
+      console.log('Not a valid day');
+}
+
+if (day === 'wednesday') {
+  console.log('Its wednesday');
+} else if (day === 'thursday') {
+  console.log('Its Thursday');
+}
+
+age >= 18 ? console.log('I like wine') :
+  console.log('I like to drink water')
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+*/
+
+const age = 23;
+
+let drink;
+if(age >= 18) {
+  drink = 'wine';
+} else {
+  drink = 'water';
+}
+console.log(drink)
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
     </script>
   </head>
   <body>
